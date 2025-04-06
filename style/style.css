@@ -671,6 +671,8 @@ a {
   border: 0;
   border-radius: 100%;
   background-color: var(--white);
+
+  cursor: pointer;
 }
 
 .display {
@@ -706,6 +708,11 @@ a {
 .footer__link-item {
   list-style-type: none;
   opacity: 0.8;
+  transition: all 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: var(--grey-secondary);
 }
 
 .footer__link-item:not(:last-child) {
@@ -750,6 +757,7 @@ a {
   border-radius: 4px;
 
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 /* Media Query */
